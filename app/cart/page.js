@@ -9,7 +9,7 @@ export default function Cart() {
   );
 }
 
-//비슷한 
+//CartItem 컴포넌트 구현
 function CartItem({ item }) {
   return (
     <div className="cart-item">
