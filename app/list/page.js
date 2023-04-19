@@ -5,6 +5,7 @@ import { useState } from "react";
 
 export default function List() {
   const items = ["Tomatoes", "Pasta", "Coconut"];
+  //items의 크기만큼 배열 생성 후 초기값을 0으로 할당
   const [qty, setQty] = useState(Array(items.length).fill(0));
   return (
     <div>
