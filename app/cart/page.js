@@ -9,6 +9,7 @@ export default function Cart() {
   );
 }
 
+//비슷한 
 function CartItem({ item }) {
   return (
     <div className="cart-item">
