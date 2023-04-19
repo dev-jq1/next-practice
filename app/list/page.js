@@ -1,5 +1,6 @@
 "use client";
-
+//"use client" 를 작성하지 않으면 default로 server component로 작동한다.
+//server component에서는 react hook을 사용할 수 없다.
 import { useState } from "react";
 
 export default function List() {
